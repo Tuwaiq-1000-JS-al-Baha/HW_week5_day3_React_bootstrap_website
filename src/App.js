@@ -1,5 +1,9 @@
+import ImageSlider from "./ImageSlider"
+
 function App() {
-  return <></>
+  return <>
+  <ImageSlider/>
+  </>
 }
 
 export default App
