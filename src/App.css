@@ -1,0 +1,19 @@
+
+
+*{
+    color:white;
+   font-size: large;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.Cardd{
+padding: 40px 5px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.cardtitle{
+    color: black;
+   
+}
