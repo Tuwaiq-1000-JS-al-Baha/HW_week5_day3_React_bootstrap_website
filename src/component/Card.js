@@ -1,4 +1,6 @@
-function Card(props) {
+import { Card } from "react-bootstrap"
+
+function CardItem(props) {
   console.log(props)
   return (
     <div class="card">
@@ -6,7 +8,7 @@ function Card(props) {
       <div class="card-body">
         <h5 class="card-title">{props.title}</h5>
         <p class="card-text">{props.text}</p>
-        <a href="#" class="btn btn-info">
+        <a href="#" class="btn btn-warning">
           SEE MORE !!
         </a>
       </div>
@@ -14,4 +16,4 @@ function Card(props) {
   )
 }
 
-export default Card
+export default CardItem
