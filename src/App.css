@@ -1,0 +1,9 @@
+.Carousel img {
+  display: flex;
+  height: 300px;
+  width: 400px;
+}
+
+.Card {
+  display: inline-flex;
+}
